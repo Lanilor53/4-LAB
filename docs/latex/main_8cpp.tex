@@ -1,0 +1,67 @@
+\hypertarget{main_8cpp}{}\doxysection{C\+:/\+Users/\+Lenovo/\+Desktop/\+C++/\+R\+P\+M-\/labs/4-\/\+L\+A\+B/main.cpp File Reference}
+\label{main_8cpp}\index{C:/Users/Lenovo/Desktop/C++/RPM-\/labs/4-\/LAB/main.cpp@{C:/Users/Lenovo/Desktop/C++/RPM-\/labs/4-\/LAB/main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include \char`\"{}heapsort.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}insertion\+Sort.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{main_8cpp_a9e58c9f10f7d29e95e6afd2b763becaf}{print\+Arr}} (T $\ast$array, int size)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{main_8cpp_a412012af6483c2467fd323d4efb42884}{print\+Arr}} (T $\ast$array, int size, const std\+::string filename)
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_a9e58c9f10f7d29e95e6afd2b763becaf}\label{main_8cpp_a9e58c9f10f7d29e95e6afd2b763becaf}} 
+\index{main.cpp@{main.cpp}!printArr@{printArr}}
+\index{printArr@{printArr}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{printArr()}{printArr()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void print\+Arr (\begin{DoxyParamCaption}\item[{T $\ast$}]{array,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+Prints the array in format \mbox{[}1,2,...n\mbox{]} to cout 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of the array \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Array to be printed \\
+\hline
+{\em size} & Size of the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a412012af6483c2467fd323d4efb42884}\label{main_8cpp_a412012af6483c2467fd323d4efb42884}} 
+\index{main.cpp@{main.cpp}!printArr@{printArr}}
+\index{printArr@{printArr}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{printArr()}{printArr()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void print\+Arr (\begin{DoxyParamCaption}\item[{T $\ast$}]{array,  }\item[{int}]{size,  }\item[{const std\+::string}]{filename }\end{DoxyParamCaption})}
+
+Prints the array in format \mbox{[}1,2,...n\mbox{]} to a file 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of the array \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Array to be printed \\
+\hline
+{\em size} & Size of the array \\
+\hline
+{\em filename} & Destination file \\
+\hline
+\end{DoxyParams}

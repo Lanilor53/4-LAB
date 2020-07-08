@@ -1,0 +1,49 @@
+\hypertarget{heapsort_8h}{}\doxysection{C\+:/\+Users/\+Lenovo/\+Desktop/\+C++/\+R\+P\+M-\/labs/4-\/\+L\+A\+B/heapsort.h File Reference}
+\label{heapsort_8h}\index{C:/Users/Lenovo/Desktop/C++/RPM-\/labs/4-\/LAB/heapsort.h@{C:/Users/Lenovo/Desktop/C++/RPM-\/labs/4-\/LAB/heapsort.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{heapsort_8h_a25dc5edbe4a9cc3c5fdc12e1fb53c673}{heapify}} (int $\ast$array, int size, int root)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T $\ast$ \mbox{\hyperlink{heapsort_8h_a755f24eb9b980398e63e1fa3c7684931}{heap\+Sort}} (T $\ast$array, int size)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{heapsort_8h_a25dc5edbe4a9cc3c5fdc12e1fb53c673}\label{heapsort_8h_a25dc5edbe4a9cc3c5fdc12e1fb53c673}} 
+\index{heapsort.h@{heapsort.h}!heapify@{heapify}}
+\index{heapify@{heapify}!heapsort.h@{heapsort.h}}
+\doxysubsubsection{\texorpdfstring{heapify()}{heapify()}}
+{\footnotesize\ttfamily void heapify (\begin{DoxyParamCaption}\item[{int $\ast$}]{array,  }\item[{int}]{size,  }\item[{int}]{root }\end{DoxyParamCaption})}
+
+Used to keep heap in order 
+\begin{DoxyParams}{Parameters}
+{\em array} & Heap array \\
+\hline
+{\em size} & Heap size \\
+\hline
+{\em root} & Heap root \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{heapsort_8h_a755f24eb9b980398e63e1fa3c7684931}\label{heapsort_8h_a755f24eb9b980398e63e1fa3c7684931}} 
+\index{heapsort.h@{heapsort.h}!heapSort@{heapSort}}
+\index{heapSort@{heapSort}!heapsort.h@{heapsort.h}}
+\doxysubsubsection{\texorpdfstring{heapSort()}{heapSort()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T$\ast$ heap\+Sort (\begin{DoxyParamCaption}\item[{T $\ast$}]{array,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+Sorts an array using heapsort algorithm 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Array type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Array to be sorted \\
+\hline
+{\em size} & Array size \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted array 
+\end{DoxyReturn}
